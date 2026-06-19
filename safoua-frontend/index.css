@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* Dark background consistent with the app theme — prevents white flash on load */
+  background-color: #080b0f;
+  color: #f2ede6;
+}
+
+body {
+  margin: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+}
